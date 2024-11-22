@@ -1,0 +1,129 @@
+* body {
+  margin: 0px;
+  font-family: 'Playfair+Display', sans serif;
+
+}
+ 
+*{margin:0;}
+
+#header1 {
+  text-align: center;
+  color: white; 
+  text-shadow: 0px 0px 2px #000;
+  
+}
+
+#mainlogo {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-image: url("https://assets.vogue.com/photos/66cf9fcf8e300baeca058f80/4:3/w_2560%2Cc_limit/1303587513");
+}
+.header2 {
+  background-color: #a19d6c ;
+  padding: 20px;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+.column {
+  width: 400px;
+  height: 230px;
+  display: inline-block;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  margin: 20px 25px;
+  cursor: pointer;
+  background-position: left;
+  background-size: cover;
+  color: white;
+  }
+.column:hover {
+  transform: translateY(-20px);
+}
+#column1 {
+  background-image: url("https://images.on-this.website/28651_166385205361b33f7f4f23b.jpg");
+  width: 400px;
+  height: 230px;
+  text-shadow: 0px 1px 1px #000;
+  
+}
+
+#column2 {
+   background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a91e0471711057.5bcee4587dc81.jpg");
+  width: 400px;
+  height: 230px;
+  
+}
+
+#column3 {
+   background-image: url("https://static.wixstatic.com/media/37d0c7_143e7cda6e30465f90b2298f46004015~mv2.jpg/v1/fill/w_560,h_372,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Close-up_View_of_Frescoes_on_Ceiling_in_.jpg");
+  width: 400px;
+  height: 230px;
+}
+#column4 {
+   background-image: url("https://bulgaria-infoguide.com/wp-content/uploads/2018/10/ivan-vazov-national-theater-3.jpg");
+  width: 400px;
+  height: 230px;
+  text-shadow: 0px 1px 2px #000;
+}
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .column { 
+  flex-direction: column;
+  align-items: center;   
+  
+  }
+  
+  .assignment{ 
+  margin-bottom: 95px; 
+    
+  }
+  
+  
+   
+    
+}
+  .button {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: black;
+    border-radius: 80px;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 90px;
+    padding: 30px;
+    border: black;
+    margin-bottom: 10px;
+    
+  }
+  
+  #gallery {
+    
+  width: 400px;
+  height: 230px;
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+
+</body>
